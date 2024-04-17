@@ -9,7 +9,7 @@ function Navbar({ className }: { className?: string }) {
 
   return (
     <div
-    className={cn("fixed top-10 inset-x-0 max-w-2xl mx-auto z-50 border-[1.5px] border-green-300 rounded-[35px]", className)}
+    className={cn("fixed top-10 inset-x-0 max-w-2xl mx-auto z-50 rounded-[35px]", className)} 
     >
         <Menu setActive={setActive}>
             <Link href={"/"}>
